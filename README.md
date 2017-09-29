@@ -5,5 +5,5 @@ Pretend that a friend owns a diner and wants you to update their website. Since 
 
 ## Directions
 1. Fork this repo.
-2. Make any changes to the site you see fit, while maintaining the content that Joe wrote.
+2. Make any changes to the site you see fit, while keeping the content that Joe wrote. Assume the form submits successfully.
 3. Set up the structure in a way that makes it easier to maintain moving forward.
