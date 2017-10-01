@@ -1,0 +1,114 @@
+/* ------ VARIABLES ------ */
+/* ------ TYPOGRAPHY ------ */
+a {
+  color: #c21131; }
+
+p {
+  font-size: 1.1em; }
+
+h1 {
+  color: #FFF;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 2.5em; }
+
+h2 {
+  color: #c21131;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 2.5em;
+  margin-bottom: .5em;
+  text-align: center; }
+
+/* ------ FORMS ------ */
+form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em; }
+  form input, form textarea {
+    border: 1px solid #918c71;
+    width: 100%; }
+  form button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    background: #c21131;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 30px; }
+    form button:hover {
+      background: #000; }
+
+/* ------ STYLES ------ */
+img {
+  height: auto;
+  max-width: 100%; }
+
+body {
+  background: #000; }
+
+header {
+  background: url(../images/pexels-photo-70497.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FFF;
+  height: 350px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 1000; }
+  header:after {
+    background: #000;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1; }
+  header h1 {
+    color: #FFF;
+    padding-top: 80px;
+    position: relative;
+    text-align: center; }
+  header a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    background: #c21131;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none; }
+    header a:hover {
+      background: #000;
+      color: #FFF;
+      text-decoration: none; }
+
+main {
+  background: #e9e9e1;
+  padding: 40px 0; }
+  main p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em; }
+
+.photos {
+  padding: 20px 0;
+  text-align: center; }
+
+footer {
+  background: url(../images/zigzag.png) top center repeat-x #e9e9e1;
+  background-size: 28px 31px;
+  border: 0;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  width: 100%; }
+
+/*# sourceMappingURL=output.css.map */
