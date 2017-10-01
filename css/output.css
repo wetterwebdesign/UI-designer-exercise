@@ -46,7 +46,8 @@ img {
   max-width: 100%; }
 
 body {
-  background: #000; }
+  background: #000;
+  font-family: Arial, sans-serif; }
 
 header {
   background: url(../images/pexels-photo-70497.jpg) no-repeat center center;
